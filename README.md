@@ -149,7 +149,7 @@ Add the following keys in `Info.plist`:
 1. Clone the repository:
 
 ```
-git clone https://github.com/YOUR_USERNAME/AI-Image-Classifier.git
+git clone https://github.com/goutamroy/AI-Image-Classifier.git
 ```
 
 2. Open in Xcode:

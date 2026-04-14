@@ -1,0 +1,45 @@
+# Xcode
+build/
+DerivedData/
+*.xcworkspace
+!default.xcworkspace
+
+# Swift Package Manager
+.swiftpm/
+.build/
+
+# CocoaPods
+Pods/
+Podfile.lock
+
+# Carthage
+Carthage/Build/
+
+# Archives
+*.xcarchive
+
+# User data
+*.xcuserstate
+*.xcuserdata/
+
+# macOS
+.DS_Store
+
+# Logs
+*.log
+
+# Temp
+*.tmp
+*.swp
+
+# CoreML compiled models
+*.mlmodelc
+
+# IDE
+.idea/
+
+# Coverage
+*.profdata
+
+# Environment
+.env

@@ -1,0 +1,1099 @@
+{
+  "activityEntities" : [
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-04-14T07:23:49Z",
+        "event" : "trainingStarted",
+        "id" : "F6361D08-FB20-43AE-8A65-D9FDC8F8D620",
+        "subtitle" : "25 iterations",
+        "title" : "Training Started"
+      }
+    ],
+    "evaluationStarted",
+    [
+      {
+        "createdDate" : "2026-04-14T07:25:21Z",
+        "event" : "evaluationStarted",
+        "id" : "9371AC93-F2D6-4FDB-A13D-9558AEEDA20D",
+        "subtitle" : "FoodClassifier 1",
+        "title" : "Testing Started"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-04-14T07:24:21Z",
+        "event" : "trainingFinished",
+        "id" : "734089EA-3896-44C7-8C50-907D1255A9BB",
+        "subtitle" : "Model converged at 12 iterations",
+        "title" : "Training Completed"
+      }
+    ],
+    "evaluationFinished",
+    [
+      {
+        "createdDate" : "2026-04-14T07:26:04Z",
+        "event" : "evaluationFinished",
+        "id" : "2DF930B8-1E0A-4887-B08E-7536F9F7AD44",
+        "subtitle" : "FoodClassifier 1",
+        "title" : "Testing Completed"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-04-14T07:23:30Z",
+        "event" : "experimentCreated",
+        "id" : "49B6BB35-6C17-4872-9C2A-D6E015CDBB51",
+        "subtitle" : "FoodClassifier 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "evaluationDataAdded",
+    [
+      {
+        "createdDate" : "2026-04-14T07:25:16Z",
+        "event" : "evaluationDataAdded",
+        "id" : "D8249A6E-E26D-4548-82F5-433FC0FA5281",
+        "subtitle" : "Test",
+        "title" : "Testing Data Added"
+      }
+    ],
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-04-14T07:23:42Z",
+        "event" : "trainingDataAdded",
+        "id" : "B04CC647-DF12-43EB-9E55-60897A2C45F4",
+        "subtitle" : "Train",
+        "title" : "Training Data Added"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-04-14T07:23:41Z"
+  },
+  "createdDate" : "2026-04-14T07:27:30Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-04-14T07:27:30Z",
+    "evaluationEntities" : [
+
+    ],
+    "id" : "464c81b7-b56f-4768-af12-87e36bb71c61",
+    "modifiedDate" : "2026-04-14T07:27:30Z",
+    "previewType" : "imageClassifier",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-04-14T07:27:30Z",
+      "dataResult" : {
+        "createdDate" : "2026-04-14T07:27:30Z"
+      },
+      "id" : "da4926f9-b447-4bc8-ad06-dff86fbf0517"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-04-14T07:27:30Z",
+      "dataResult" : {
+        "createdDate" : "2026-04-14T07:27:30Z",
+        "dataSourceID" : "35380152-C9CA-4BAD-AA6D-C955AABD9421",
+        "dataURL" : "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/"
+      },
+      "dataSourceID" : "35380152-C9CA-4BAD-AA6D-C955AABD9421",
+      "id" : "92869022-36a0-4c7e-a0d9-f06503509163"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-04-14T07:27:30Z",
+      "dataResult" : {
+        "createdDate" : "2026-04-14T07:27:30Z"
+      },
+      "id" : "84b51548-0830-4e05-a771-d218a38e763c"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "6efdd78e-a514-4b3a-ab0d-0f7a9bd534d6"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "424E382A-8D14-4EF5-9D34-B9CD421EF947",
+  "modelEntity" : {
+    "createdDate" : "2026-04-14T07:27:30Z",
+    "experimentID" : "C72F6B38-BC4B-417D-A11B-BE52E45041D6",
+    "id" : "57C28B33-F802-49C7-AF92-9E65B171F6D3",
+    "modelURL" : "Snapshots/FoodClassifier%201%20Iteration%2025.mlmodel",
+    "modifiedDate" : "2026-04-14T07:27:30Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-04-14T07:27:30Z",
+  "preferredFilename" : "FoodClassifier 1 Iteration 25",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureExtractorType" : "scenePrintV1",
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 25,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "imageClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "snapshotIteration" : 25,
+    "snapshotParent" : "C72F6B38-BC4B-417D-A11B-BE52E45041D6"
+  },
+  "state" : "trained",
+  "title" : "Iteration 25",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+      "25" : {
+        "createdDate" : "2026-04-14T07:24:21Z",
+        "iteration" : 25,
+        "metrics" : {
+
+        }
+      }
+    },
+    "dataResult" : {
+      "classesCount" : 3,
+      "createdDate" : "2026-04-14T07:27:30Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+          "details" : [
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/81732.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/73783.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/25250.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/85915.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/18518.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/90115.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/22723.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/147419.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/77677.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/61822.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/74066.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/89892.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/58431.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/13983.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/99676.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/146896.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/83665.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/94603.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/24517.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/31566.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/11297.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/94215.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/29417.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/93961.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/13641.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/68684.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/70019.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/39406.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/91566.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/129792.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/180625.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/47846.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/6432.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/145095.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/91710.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/54054.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/18375.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/96357.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/53217.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/45064.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/26406.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/119256.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/23530.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/169984.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/13211.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/89197.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/28044.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/98617.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/56449.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/127005.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/54461.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/57490.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/57610.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/22489.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/91789.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/153583.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/193155.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/97917.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/71979.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/72487.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/23501.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/27963.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/27400.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/82314.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/37005.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/24753.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/40942.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/72266.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/73340.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/72749.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/30012.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/121960.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/47595.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/27587.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/39098.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/33009.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/48225.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/80750.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/12718.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/65790.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/59445.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/40231.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/78997.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/23454.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/13915.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/42335.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/76858.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/40675.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/111757.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/22923.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/56270.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/23199.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/117582.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/111051.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/72716.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/91602.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/54573.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/28905.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/99604.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/82772.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/14657.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/61656.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/83196.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/23497.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/83538.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/54189.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/105910.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/50638.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/34632.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/45547.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/68979.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/89149.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/75550.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/44810.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/32666.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/98607.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/38349.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/65141.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/33170.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/5052.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/103708.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/76817.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/60794.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/5764.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/121112.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/68852.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/12301.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/65128.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/33547.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/72111.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/52934.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/40449.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/54507.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/54540.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/22093.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/44449.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/81813.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/82578.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/120656.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/81707.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/63480.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/29455.jpg",
+            [
+              "Burger"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/102037.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/32004.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/8917.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/121834.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/33077.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Salad/102789.jpg",
+            [
+              "Salad"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Pizza/106507.jpg",
+            [
+              "Pizza"
+            ],
+            "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/Burger/79711.jpg",
+            [
+              "Burger"
+            ]
+          ],
+          "labelStats" : {
+            "Burger" : 50,
+            "Pizza" : 50,
+            "Salad" : 50
+          }
+        },
+        "issues" : [
+          {
+            "description" : "3 classes found, including Pizza, Salad, Burger",
+            "severity" : "debug"
+          },
+          {
+            "description" : "150 images found, automatically creating validation set",
+            "severity" : "good"
+          },
+          {
+            "description" : "Smallest class is \"Burger\" with 50 images",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Largest class is \"Pizza\" with 50 images",
+            "severity" : "debug"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 1,
+          "classCount" : 3,
+          "sampleCount" : 150
+        }
+      },
+      "dataSourceID" : "35380152-C9CA-4BAD-AA6D-C955AABD9421",
+      "dataURL" : "file:///Users/goutam/Documents/Documents%20%E2%80%93%20Goutam%E2%80%99s%20MacBook%20Pro/Personal/Be10x/AIEnablediOSApp/FoodData/Train/",
+      "itemsCount" : 150
+    },
+    "dataSourceID" : "35380152-C9CA-4BAD-AA6D-C955AABD9421",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-04-14T07:24:21Z",
+    "progress" : [
+      {
+        "count" : 0,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 2,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.331650972366333,
+          "hasValidation" : true,
+          "iterationCount" : 2,
+          "trainingAccuracy" : 0.9777777777777777,
+          "validationAccuracy" : 0.8666666666666667
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 3,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.3839139938354492,
+          "hasValidation" : true,
+          "iterationCount" : 3,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0.9333333333333333
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 4,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.4185810089111328,
+          "hasValidation" : true,
+          "iterationCount" : 4,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0.9333333333333333
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 5,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.46911096572875977,
+          "hasValidation" : true,
+          "iterationCount" : 5,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0.9333333333333333
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 10,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 11,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.7762759923934937,
+          "hasValidation" : true,
+          "iterationCount" : 11,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0.9333333333333333
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 12,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.8287229537963867,
+          "hasValidation" : true,
+          "iterationCount" : 12,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0.9333333333333333
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 15,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 20,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 25,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 1
+      }
+    ],
+    "resumableCheckpoint" : {
+      "checkpointURL" : "file:///Users/goutam/Library/Caches/com.apple.dt.createml/projects/251F5671-07A7-4B50-A988-1B20F3997086780a53a256425453ee1ca39980602700c650b259/sessions/checkpoint.sessions/C72F6B38-BC4B-417D-A11B-BE52E45041D6/training-000000025.checkpoint",
+      "createdDate" : "2026-04-14T07:24:21Z",
+      "iteration" : 25
+    },
+    "snapshottableCheckpoints" : {
+      "25" : {
+        "createdDate" : "2026-04-14T07:24:21Z",
+        "iteration" : 25,
+        "modelURL" : "file:///Users/goutam/Library/Caches/com.apple.dt.createml/projects/251F5671-07A7-4B50-A988-1B20F3997086780a53a256425453ee1ca39980602700c650b259/sessions/checkpoint.sessions/C72F6B38-BC4B-417D-A11B-BE52E45041D6/training-000000025.checkpoint.model/checkpointModel.mlmodel"
+      }
+    },
+    "startTime" : "2026-04-14T07:23:49Z",
+    "trainingAccuracy" : 1,
+    "trainingResults" : {
+      "imageClassifier" : {
+        "accuracy" : 1,
+        "confusionMatrix" : [
+          {
+            "actual" : "Burger",
+            "count" : 45,
+            "expected" : "Burger"
+          },
+          {
+            "actual" : "Pizza",
+            "count" : 45,
+            "expected" : "Pizza"
+          },
+          {
+            "actual" : "Salad",
+            "count" : 45,
+            "expected" : "Salad"
+          }
+        ],
+        "statsByLabel" : {
+          "Burger" : {
+            "count" : 45,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "Pizza" : {
+            "count" : 45,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "Salad" : {
+            "count" : 45,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 0.9333333333333333,
+    "validationResults" : {
+      "imageClassifier" : {
+        "accuracy" : 0.9333333333333333,
+        "confusionMatrix" : [
+          {
+            "actual" : "Burger",
+            "count" : 4,
+            "expected" : "Burger"
+          },
+          {
+            "actual" : "Burger",
+            "count" : 1,
+            "expected" : "Pizza"
+          },
+          {
+            "actual" : "Pizza",
+            "count" : 5,
+            "expected" : "Pizza"
+          },
+          {
+            "actual" : "Salad",
+            "count" : 5,
+            "expected" : "Salad"
+          }
+        ],
+        "statsByLabel" : {
+          "Burger" : {
+            "count" : 5,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 0.8
+              }
+            }
+          },
+          "Pizza" : {
+            "count" : 5,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 0.8333333333333334,
+                "recall" : 1
+              }
+            }
+          },
+          "Salad" : {
+            "count" : 5,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-04-14T07:27:30Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

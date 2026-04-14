@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-04-13T15:24:16Z",
+        "event" : "projectCreated",
+        "id" : "7AF6713A-1510-44AC-9DD5-BA16692B37A2",
+        "subtitle" : "FoodClassifier",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "Goutam Roy",
+  "createdDate" : "2026-04-13T15:24:16Z",
+  "description" : "",
+  "id" : "251F5671-07A7-4B50-A988-1B20F3997086",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-04-13T15:24:16Z",
+  "projectName" : "FoodClassifier",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "imageClassifier",
+  "title" : "Image Classification",
+  "version" : "1.1"
+}

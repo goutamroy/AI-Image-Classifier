@@ -167,7 +167,11 @@ open AI-Image-Classifier.xcodeproj
 
 ## 📸 Screenshots
 
-
+Screenshots/ClassificationImagePredictionResultDisplay.png
+Screenshots/ClassificationImageSelected.png
+Screenshots/VoiceAssistant.png
+Screenshots/classification.png
+Screenshots/home.png
 
 Example:
 

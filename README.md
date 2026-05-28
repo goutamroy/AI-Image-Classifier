@@ -166,13 +166,13 @@ open AI-Image-Classifier.xcodeproj
 ---
 
 ## 📸 Screenshots
-```
+
 [Screenshots/ClassificationImagePredictionResultDisplay.png](https://github.com/goutamroy/AI-Image-Classifier/blob/main/Screenshots/ClassificationImagePredictionResultDisplay.png)
 [Screenshots/ClassificationImageSelected.png](https://github.com/goutamroy/AI-Image-Classifier/blob/main/Screenshots/ClassificationImageSelected.png)
 [Screenshots/VoiceAssistant.png](https://github.com/goutamroy/AI-Image-Classifier/blob/main/Screenshots/VoiceAssistant.png)
 [Screenshots/classification.png](https://github.com/goutamroy/AI-Image-Classifier/blob/main/Screenshots/classification.png)
 [Screenshots/home.png](https://github.com/goutamroy/AI-Image-Classifier/blob/main/Screenshots/home.png)
-```
+
 
 ---
 
